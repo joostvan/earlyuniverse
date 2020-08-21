@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=500" />
+	<meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, anchor, link, in-page, hash" />
+	<meta name="author"	content="Jan Paepke (www.janpaepke.de)" />
+	<title>After the big bang</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/css/style.css" type="text/css">
+	<link rel="stylesheet" href="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/css/examples.css" type="text/css">
+	<link rel="shortcut icon" href="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/img/favicon1.ico" type="image/x-icon">
+
+	<script type="text/javascript" src="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/js/lib/highlight.pack.js"></script>
+	<script type="text/javascript" src="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/js/lib/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/js/examples.js"></script>
+	
+	<script type="text/javascript" src="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+</head>
+<body>
+	<ul id="menu"></ul>
+	<div id="content-wrapper">
+		<div id="example-wrapper">
+			<div class="scrollContent">
+				<section id="titlechart">
+					<div id="description">
+						<h1>After the Big Bang</h1>
+						<h2>What happened?</h2>
+						<p>Let's fast forward to just after the earliest meaningful time...<code>t = 0 seconds</code></p>
+						<!-- <p>If you want to create a "pause" between the slides, simply add a <code>margin-bottom</code> to them (see between slide 3 and 4).</p> -->
+						
+					</div>
+				</section>
+				<section class="demo" id="section-wipes">
+					<style type="text/css">
+						.panel {
+							height: 100%;
+							width: 100%;
+						}
+						.panel.green {
+							margin-bottom: 400px
+						}
+						.parallaxParent {
+							height: 100vh;
+							overflow: hidden;
+						}
+						.parallaxParent > * {
+							height: 200%;
+							position: relative;
+							top: -100%;
+						}
+					</style>
+					<section class="panel blue">
+                        <b>The Planck Era: <br>
+                        Immediately after the Big Bang, and before the universe became just 10<sup>-43</sup> seconds old,
+						the Planck Era represented a time when the four fundamental forces were united. 
+						<br> These forces are the electromagnetic force (governs behavior of lights and magnets), gravity (governs interactions between masses),
+						<br> the strong force (binds protons and neutrons together), and the weak force (important for nuclear reactions through fusion, and fission)
+                        <br> In this tiny fraction of a second, temperature and pressure must have been above 10^32 Kelvin. </b>
+						
+					</section>
+					<section class="panel turqoise">
+                        <b>The Grand Unified Theory (GUT) Era: <br>
+							Following the Planck Era, the GUT period is marked by two forces: first, gravity, and, second, the GUT force, 
+							<br> which is the combined the electromagnetic, weak, and strong forces. If GUT theories are correct, 
+							<br> rapid inflation in space occured as well as the separation of the strong and weak forces. 
+							<br> There must have been a hypothetical X and Y Bosons allowing for proton decay. 
+							This period lasted for 10<sup>-43</sup> to 10<sup>-38</sup> seconds.
+							<br> </b>
+					</section>
+					<section class="panel bordeaux">
+						<b>Electroweak Era
+						<br>With gravity and the strong forces separated, the electromagnetic and weak forces were still together. 
+						<br>Due to matter and antimatter being annihilated, all that exists is the byproducts: photons and pure energy.
+						<br>The temperature cools to 10<sup>15</sup> Kelvin;
+						<br>By 10<sup>-10</sup> seconds, the electroweak forces separate, causing the distinct four fundamental forces to be found.
+						</b>
+					</section>
+					<section class="panel darksand">
+						<b>Particle Era
+						<br>Ordinary particles form  
+						<br>Due to matter and antimatter being constantly created and annihilated, all that exists is the byproducts: photons and pure energy.
+						<br>The temperature cools to 10<sup>12</sup> Kelvin, and here, particle creation and annihilation ceases. 
+						<br>There are slightly more particles than antiparticles, allowing matter to be sustained and existence today.
+						</b>
+                    </section>
+                    <section class="panel blue">
+						<b>Nucleosynthesis era
+						<br>We are now at 0.001 second (1 millisecond) after the Big Bang
+						<br>Protons and neutrons spared from annihilation form heavier nuclei but are quickly annihilated by Gamma rays.
+						<br>The universe, however, cools until 10<sup>9</sup> Kelvin, in which case fusion of new nuclei ends. 
+						<br>All that remains is a primordial mix of 75% Hydrogen and 25% Helium; this era ends after 5 minutes after the Big Bang.
+						</b>
+					</section>
+					<section class="panel imageo">
+						<b>Era of Nuclei
+						<br>Hydrogen, helium, and free electrons compose the universe for the next 380,000 years as it expands and cools; 
+						<br>it is a hot plasma that fails to form galaxies or other large structures.
+						<br>Protons and neutrons spared from annihilation form heavier nuclei. This process is called "recombination",
+						<br>whereby neutral hydrogen atoms are created. Reducing energy, these atoms reach their ground state by "decoupling" from their photons. 
+						<br>Alongside this, the universe cools until 10<sup>9</sup> Kelvin, in which case fusion of new nuclei ends.
+						<br>The decoupled photons can be found as evidence in the Cosmic Microwave Background Radiation. For the first time, the universe is clear!
+						</b>
+					</section>
+					<section class="panel skin">
+						<b>Era of Atoms
+						<br>After the Era of Nuclei, differences in matter densities due to gravity formed halos, proto-galaxies, and other large scale structures. 
+						<br>The first galaxies formed after 1,000,000 years after the Big Bang. 
+						</b>
+					</section>
+					<section class="panel darksand">
+						<b>Present day
+						<br>13.8 billion years later, we are voyagers on a beautiful planet sculpted from billions of years before us. 
+						<br>There are many mysteries still unresolved: why is that there is a matter asymmetry? 
+						<br>Why is the visible baryonic matter roughly 20% of all matter? 
+						<br>Was dark matter created before the Big Bang?
+						</b>
+					</section>
+					<div class="spacer s0"></div>
+					<div id="parallax1" class="parallaxParent">
+						<div style="background-image: url(../../assets/img/example_parallax_bg1.png);"></div>
+					</div>
+					<script>
+						$(function () { // wait for document ready
+							// init
+							var controller = new ScrollMagic.Controller({
+								globalSceneOptions: {
+									triggerHook: 'onLeave',
+									duration: "100%" // this works just fine with duration 0 as well
+									// However with large numbers (>20) of pinned sections display errors can occur so every section should be unpinned once it's covered by the next section.
+									// Normally 100% would work for this, but here 200% is used, as Panel 3 is shown for more than 100% of scrollheight due to the pause.
+								}
+							});
+
+							// get all slides
+							var slides = document.querySelectorAll("section.panel");
+
+							// create scene for every slide
+							for (var i=0; i<slides.length; i++) {
+								new ScrollMagic.Scene({
+										triggerElement: slides[i]
+									})
+									.setPin(slides[i], {pushFollowers: false})
+									//.addIndicators() // add indicators (requires plugin)
+									.addTo(controller);
+							}
+							new ScrollMagic.Scene({triggerElement: "#parallax1"})
+							.setTween("#parallax1", {y: "100%", ease: Linear.easeNone})
+							.addTo(controller);
+						});
+					</script>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/Users/joost/OneDrive - PennO365/Documents/Senior Spring/Cosmo/assets/js/tracking.js"></script>
+</body>
+</html>
